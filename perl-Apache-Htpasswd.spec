@@ -6,7 +6,8 @@ Summary(pl):	Obs³uga pliku hase³ w stylu uniksowego crypt
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.5.5
 Release:	2
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5215d02e4a075535929279f9a0bc98c7
