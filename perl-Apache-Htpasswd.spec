@@ -5,12 +5,12 @@ Summary:	Manage Unix crypt-style password file
 Summary(pl):	Obs³uga pliku hase³ w stylu uniksowego crypt
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.5.5
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.0.2-104
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
