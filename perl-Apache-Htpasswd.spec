@@ -9,7 +9,7 @@ Summary:	Manage Unix crypt-style password file
 Summary(pl):	Obs³uga pliku hase³ w stylu uniksowego crypt
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.5.5
-Release:	2
+Release:	3
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
