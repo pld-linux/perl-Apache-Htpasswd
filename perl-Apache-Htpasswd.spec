@@ -1,7 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Apache
 %define	pnam	Htpasswd
-Summary:	Manage Unix crypt-style password file.
+Summary:	Manage Unix crypt-style password file
+Summary(pl):	Obs³uga pliku hase³ w stylu uniksowego crypt
 Name:		perl-%{pdir}-%{pnam}
 Version:	1.5.5
 Release:	1
@@ -17,6 +18,11 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 This module comes with a set of methods to use with htaccess password
 files. These files (and htaccess) are used to do Basic Authentication
 on a web server.
+
+%description -l pl
+Ten modu³ dostarcza zestaw metod, których mo¿na u¿ywaæ z plikami hase³
+htaccess. Te pliki (oraz htaccess) s± u¿ywane do uwierzytelnienia
+Basic na serwerze WWW.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
