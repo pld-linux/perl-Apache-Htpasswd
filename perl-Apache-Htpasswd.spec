@@ -7,7 +7,7 @@
 %define	pnam	Htpasswd
 Summary:	Manage Unix crypt-style password file
 Summary(pl):	Obs³uga pliku hase³ w stylu uniksowego crypt
-Name:		perl-%{pdir}-%{pnam}
+Name:		perl-Apache-Htpasswd
 Version:	1.5.5
 Release:	3
 # same as perl
