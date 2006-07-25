@@ -8,13 +8,14 @@
 Summary:	Manage Unix crypt-style password file
 Summary(pl):	Obs³uga pliku hase³ w stylu uniksowego crypt
 Name:		perl-Apache-Htpasswd
-Version:	1.7
+Version:	1.8
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	a89844807168cf61ccd2e889033e4bf2
+URL:		http://search.cpan.org/dist/Apache-Htpasswd/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
