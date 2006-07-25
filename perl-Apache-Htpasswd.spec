@@ -14,7 +14,7 @@ Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a89844807168cf61ccd2e889033e4bf2
+# Source0-md5:	ee2048044096b4259e89c9ed1c88ed92
 URL:		http://search.cpan.org/dist/Apache-Htpasswd/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
