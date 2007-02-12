@@ -6,7 +6,7 @@
 %define		pdir	Apache
 %define		pnam	Htpasswd
 Summary:	Manage Unix crypt-style password file
-Summary(pl):	Obs≥uga pliku hase≥ w stylu uniksowego crypt
+Summary(pl.UTF-8):   Obs≈Çuga pliku hase≈Ç w stylu uniksowego crypt
 Name:		perl-Apache-Htpasswd
 Version:	1.8
 Release:	1
@@ -30,9 +30,9 @@ This module comes with a set of methods to use with htaccess password
 files. These files (and htaccess) are used to do Basic Authentication
 on a web server.
 
-%description -l pl
-Ten modu≥ dostarcza zestaw metod, ktÛrych moøna uøywaÊ z plikami hase≥
-htaccess. Te pliki (oraz htaccess) s± uøywane do uwierzytelnienia
+%description -l pl.UTF-8
+Ten modu≈Ç dostarcza zestaw metod, kt√≥rych mo≈ºna u≈ºywaƒá z plikami hase≈Ç
+htaccess. Te pliki (oraz htaccess) sƒÖ u≈ºywane do uwierzytelnienia
 Basic na serwerze WWW.
 
 %prep
