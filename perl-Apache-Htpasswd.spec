@@ -9,7 +9,7 @@ Summary:	Manage Unix crypt-style password file
 Summary(pl.UTF-8):	Obsługa pliku haseł w stylu uniksowego crypt
 Name:		perl-Apache-Htpasswd
 Version:	1.8
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
