@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	Apache
 %define		pnam	Htpasswd
 Summary:	Manage Unix crypt-style password file
